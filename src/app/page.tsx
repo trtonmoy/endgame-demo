@@ -3,7 +3,7 @@ import ServiceCategory from "./components/Sections/Home/ServiceCategory/ServiceC
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-24">
+    <main className="min-h-screen">
       <ServiceCategory></ServiceCategory>
     </main>
   );
