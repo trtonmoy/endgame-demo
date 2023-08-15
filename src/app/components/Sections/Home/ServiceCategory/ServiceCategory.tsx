@@ -43,16 +43,24 @@ const ServiceCategory = () => {
           </TabList>
 
           <TabPanel>
-            <section className="mt-8 w-full relative">
+            <section className="mt-8 w-full lg:relative">
               <h2 className="text-3xl font-mono font-semibold text-orange-500">
                 Maintain Your vehicle perfectly
               </h2>
               <div className="lg:flex lg:justify-around lg:items-center gap-5 pt-8">
-                <Image src={img1} alt="Maintenance" className="w-[50%]" />
-                <Image src={img2} alt="Maintenance" className="w-[50%]" />
+                <Image
+                  src={img1}
+                  alt="Maintenance"
+                  className="lg:w-[50%] mb-2"
+                />
+                <Image
+                  src={img2}
+                  alt="Maintenance"
+                  className="lg:w-[50%] mb-2"
+                />
               </div>
               <div className="lg:flex lg:justify-center">
-                <div className="bg-slate-600 w-[75%] text-left px-16 py-8 absolute -bottom-32 lg:flex lg:justify-around ">
+                <div className="bg-slate-600 lg:w-[75%] text-left px-16 py-8 lg:absolute -bottom-32 lg:flex lg:justify-around ">
                   <div>
                     <li className="text-lg font-semibold pb-2 text-orange-500">
                       Oil Change and Filter Replacement
@@ -98,16 +106,24 @@ const ServiceCategory = () => {
             </section>
           </TabPanel>
           <TabPanel>
-            <section className="mt-8 relative">
+            <section className="mt-8 lg:relative">
               <h2 className="text-3xl font-mono font-semibold text-orange-500">
                 Make Your vehicle GORGEOUS
               </h2>
               <div className="lg:flex lg:justify-around lg:items-center gap-5 pt-8">
-                <Image src={img3} alt="Maintenance" className="w-[50%]" />
-                <Image src={img4} alt="Maintenance" className="w-[50%]" />
+                <Image
+                  src={img3}
+                  alt="Maintenance"
+                  className="lg:w-[50%] mb-2"
+                />
+                <Image
+                  src={img4}
+                  alt="Maintenance"
+                  className="lg:w-[50%] mb-2"
+                />
               </div>
               <div className="lg:flex lg:justify-center">
-                <div className="bg-slate-600 w-[75%] text-left px-16 py-8 absolute -bottom-32 lg:flex lg:justify-around ">
+                <div className="bg-slate-600 lg:w-[75%] text-left px-16 py-8 lg:absolute -bottom-32 lg:flex lg:justify-around ">
                   <div>
                     <li className="text-lg font-semibold pb-2 text-orange-500">
                       Dent and Scratch Repair
@@ -153,16 +169,16 @@ const ServiceCategory = () => {
             </section>
           </TabPanel>
           <TabPanel>
-            <section className="mt-8 relative">
+            <section className="mt-8 lg:relative">
               <h2 className="text-3xl font-mono font-semibold text-orange-500">
                 Upgrade Your Machine
               </h2>
               <div className="lg:flex lg:justify-around lg:items-center gap-5 pt-8">
-                <Image src={img5} alt="Maintenance" className="w-[50%]" />
-                <Image src={img6} alt="Maintenance" className="w-[50%]" />
+                <Image src={img5} alt="Maintenance" className="lg:w-[50%] mb-2" />
+                <Image src={img6} alt="Maintenance" className="lg:w-[50%] mb-2" />
               </div>
               <div className="lg:flex lg:justify-center">
-                <div className="bg-slate-600 w-[75%] text-left px-16 py-8 absolute -bottom-32 lg:flex lg:justify-around ">
+                <div className="bg-slate-600 lg:w-[75%] text-left px-16 py-8 lg:absolute -bottom-32 lg:flex lg:justify-around ">
                   <div>
                     <li className="text-lg font-semibold pb-2 text-orange-500">
                       Engine Tuning
